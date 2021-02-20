@@ -1,6 +1,11 @@
-# todo_app
+# Todo List App 
 
-A new Flutter project.
+A simple todo list app develop using flutter
+
+## Output
+
+![Todo-1.png](https://postimg.cc/gnKkgKjm)
+
 
 ## Getting Started
 
