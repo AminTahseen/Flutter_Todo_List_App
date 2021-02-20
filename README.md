@@ -1,7 +1,7 @@
 # Todo List App 
 
-A simple todo list app develop using flutter
-
+A simple todo list app develop using flutter. The app works on a temporary data which is the array, so the filtering have some issues.
+ 
 ## Output
 
 [![Todo-1.png](https://i.postimg.cc/fTGtT2ht/Todo-1.png)](https://postimg.cc/gnKkgKjm)
