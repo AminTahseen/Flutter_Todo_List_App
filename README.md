@@ -4,7 +4,7 @@ A simple todo list app develop using flutter
 
 ## Output
 
-[Todo-1.png](https://postimg.cc/gnKkgKjm)
+[![Todo-1.png](https://postimg.cc/gnKkgKjm)
 
 [![Todo-2.png](https://i.postimg.cc/yYc994jX/Todo-2.png)](https://postimg.cc/8jkjQYqj)
 
