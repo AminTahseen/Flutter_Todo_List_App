@@ -4,6 +4,8 @@ A simple todo list app develop using flutter. The app works on a temporary data 
  
 ## Output
 
+[![Screenshot-2021-02-21-23-46-45.png](https://i.postimg.cc/mg9V6jHN/Screenshot-2021-02-21-23-46-45.png)](https://postimg.cc/pm2DmDkp)
+
 [![Todo-1.png](https://i.postimg.cc/fTGtT2ht/Todo-1.png)](https://postimg.cc/gnKkgKjm)
 
 [![Todo-2.png](https://i.postimg.cc/yYc994jX/Todo-2.png)](https://postimg.cc/8jkjQYqj)
