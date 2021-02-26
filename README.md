@@ -1,6 +1,16 @@
-# todo_app
+# Todo List App 
 
-A new Flutter project.
+A simple todo list app develop using flutter. The app works on a temporary data which is the array, so the filtering have some issues.
+ 
+## Output
+
+[![Screenshot-2021-02-21-23-46-45.png](https://i.postimg.cc/mg9V6jHN/Screenshot-2021-02-21-23-46-45.png)](https://postimg.cc/pm2DmDkp)
+
+[![Todo-1.png](https://i.postimg.cc/fTGtT2ht/Todo-1.png)](https://postimg.cc/gnKkgKjm)
+
+[![Todo-2.png](https://i.postimg.cc/yYc994jX/Todo-2.png)](https://postimg.cc/8jkjQYqj)
+
+[![Todo-3.png](https://i.postimg.cc/bwPn9CFX/Todo-3.png)](https://postimg.cc/ZCf0TcSj)
 
 ## Getting Started
 
