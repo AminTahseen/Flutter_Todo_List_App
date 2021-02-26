@@ -122,21 +122,43 @@ class _HomeState extends State<Home> {
 
   @override
   Widget build(BuildContext context) {
+    final appBar = AppBar(
+      title: Text('Todoist'),
+      actions: <Widget>[
+        IconButton(
+          icon: Icon(Icons.filter_list, color: Colors.white),
+          onPressed: () => _showFilterDialog(context),
+        )
+      ],
+    );
+    final mediaQuery = MediaQuery.of(context);
+    final isLandscape = mediaQuery.orientation == Orientation.landscape;
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Todoist'),
-        actions: <Widget>[
-          IconButton(
-            icon: Icon(Icons.filter_list, color: Colors.white),
-            onPressed: () => _showFilterDialog(context),
-          )
-        ],
-      ),
+      appBar: appBar,
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            CardCount(_remainTaskCount, _completedTaskCount),
-            TaskList(_todoList, _completeTask, _deleteTask),
+            Container(
+              height: (mediaQuery.size.height -
+                      appBar.preferredSize.height -
+                      mediaQuery.padding.top) *
+                  0.4,
+              child: CardCount(
+                _remainTaskCount,
+                _completedTaskCount,
+              ),
+            ),
+            Container(
+              height: (mediaQuery.size.height -
+                      appBar.preferredSize.height -
+                      mediaQuery.padding.top) *
+                  0.6,
+              child: TaskList(
+                _todoList,
+                _completeTask,
+                _deleteTask,
+              ),
+            ),
           ],
         ),
       ),
