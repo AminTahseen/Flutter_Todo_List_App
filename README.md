@@ -12,7 +12,7 @@ A simple todo list app develop using flutter. The app works on a temporary data 
 
 [![Todo-3.png](https://i.postimg.cc/bwPn9CFX/Todo-3.png)](https://postimg.cc/ZCf0TcSj)
 
-### In Landscape Mode
+### In Landscape Mode or Tablet 
 
 [![Screenshot-2021-02-27-00-40-07.png](https://i.postimg.cc/PJWs0MxJ/Screenshot-2021-02-27-00-40-07.png)](https://postimg.cc/rRwPrx52)
 
