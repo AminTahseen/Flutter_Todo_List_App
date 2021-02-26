@@ -1,3 +1,4 @@
+import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 
 class NoTasks extends StatelessWidget {
@@ -27,11 +28,13 @@ class NoTasks extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 10),
-              Text(
+              AutoSizeText(
                 'Why Not Start Adding Some Tasks Todo ?',
                 style: TextStyle(
                   fontSize: 20,
                 ),
+                textAlign: TextAlign.center,
+                maxLines: 2,
               ),
             ],
           ),

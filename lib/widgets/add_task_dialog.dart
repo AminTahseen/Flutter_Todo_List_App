@@ -1,3 +1,4 @@
+import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
@@ -77,7 +78,7 @@ class _AddTaskDialogState extends State<AddTaskDialog> {
                     decoration: InputDecoration(
                       labelText: 'Todo Details',
                     ),
-                    style: TextStyle(fontSize: 25),
+                    style: TextStyle(fontSize: 20),
                   ),
                   SizedBox(height: 20),
                   Row(
@@ -87,13 +88,14 @@ class _AddTaskDialogState extends State<AddTaskDialog> {
                           _selectedDate == null
                               ? 'No Date Chosen'
                               : DateFormat.yMd().format(_selectedDate),
-                          style: TextStyle(fontSize: 25),
+                          style: TextStyle(fontSize: 20),
                         ),
                         FlatButton(
                           onPressed: _showDatePicker,
-                          child: Text(
+                          child: AutoSizeText(
                             'Choose Date',
                             style: TextStyle(fontSize: 20),
+                            maxLines: 1,
                           ),
                           textColor: Colors.red,
                         ),
