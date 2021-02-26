@@ -132,7 +132,6 @@ class _HomeState extends State<Home> {
       ],
     );
     final mediaQuery = MediaQuery.of(context);
-    final isLandscape = mediaQuery.orientation == Orientation.landscape;
     return Scaffold(
       appBar: appBar,
       body: SingleChildScrollView(
@@ -152,13 +151,21 @@ class _HomeState extends State<Home> {
               height: (mediaQuery.size.height -
                       appBar.preferredSize.height -
                       mediaQuery.padding.top) *
-                  0.6,
+                  0.5,
               child: TaskList(
                 _todoList,
                 _completeTask,
                 _deleteTask,
               ),
             ),
+            Container(
+              child: SizedBox(
+                height: (mediaQuery.size.height -
+                        appBar.preferredSize.height -
+                        mediaQuery.padding.top) *
+                    0.1,
+              ),
+            )
           ],
         ),
       ),
